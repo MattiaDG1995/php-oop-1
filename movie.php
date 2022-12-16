@@ -13,7 +13,15 @@ class Movie{
 
     }
 
-}
+    public function data(){
+        if($this->annouscita < 2000){
+            return "vecchiotto";
 
+        }else{
+            return "recente";
+        }
+    }
+
+}
 
 ?>
